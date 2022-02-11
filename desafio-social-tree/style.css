@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.username-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #BB99DD;
+    margin-bottom: 0.8rem;
+
+}
+
+.profile-photo {
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 0.35rem;
+    background-image: url(assets/pexels-guilherme-almeida-1858175.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 50%;
+    border: 2px solid #BB99DD;
+    margin-bottom: 0.7rem;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list-item {
+    display: flex;
+    width: 25vw;
+    border: 2px solid #D6C3EA;
+    border-radius: 4px;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.7em;
+    
+}
+
+.link-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: #bea3db;
+}
+
+.list-icons-social-media {
+    display: flex;
+    width: 25vw;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 0.7rem;
+}
+
+.icon-item {
+    width: 1.5rem;
+    height: 1.5rem;
+}
