@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <div>
+                <select>
+                    <option value="suport" name="suport">
+                        Suporte
+                    </option>
+                    <option value="sugestion" name="sugestion">
+                        Sugestão
+                    </option>
+                    <option value="complaint" name="complaint">
+                        Reclamação
+                    </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="name">Name</label>
+                <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Nome Completo"
+                    pattern="[A-Z]"
+                    required
+                >
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input 
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="username@email.com"
+                    pattern="[/^w+[+.w-]*@([w-]+.)*w+[w-]*.([a-z]{2,4}|d+)$/i]"
+                    required
+                >
+            </div>
+            <br>
+            <div>
+                <label for="message">Mensagem:</label>
+                <br>
+                <textarea cols="20" rows="5" id="message" name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="news">
+                <label for="news">Aceito receber novidades por e-mail</label>
+            </div>
+            <br>
+            <button type="submit">Enviar</button>
+           
+        </fieldset>
+        <br>
+        
+    </form>
+</body>
+</html>
